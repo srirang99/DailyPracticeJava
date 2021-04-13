@@ -12,6 +12,8 @@ public class Program1 {
 
         for(int i=0; i<=stop; i++){
 
+            //call this method in driver class and execute the program,
+
             String s2=s.substring(i,i+k);
             int num1= (int) s2.charAt(0);
             if(num1<small){
